@@ -16,7 +16,6 @@ botoes.forEach((botao) => {
       } else if(botao.value == "C") {
         tela.value = ""
       }else{
-        // Adiciona na tela apenas se NÃO for "="
         tela.value += botao.value;
       }
     });
